@@ -1,0 +1,287 @@
+@font-face{
+    font-family:"moonshiner-regular";
+    src:url("../font/moonshiner/Moonshiner-Regular.otf") format("woff"),
+    url("../font/moonshiner/Moonshiner-Regular.otf") format("opentype"),
+    url("../font/moonshiner/Moonshiner-Regular.otf") format("truetype");
+}
+
+@font-face{
+    font-family:"myriad-pro-cond";
+    src:url("../font/myriad-pro-condensed/Myriad-Pro-Condensed.ttf") format("woff"),
+    url("../font/myriad-pro-condensed/Myriad-Pro-Condensed.ttf") format("opentype"),
+    url("../font/myriad-pro-condensed/Myriad-Pro-Condensed.ttf") format("truetype");
+}
+
+@font-face{
+    font-family:"myriad-pro-regular";
+    src:url("../font/myriad-pro-regular/Myriad-Pro-Regular.ttf") format("woff"),
+    url("../font/myriad-pro-regular/Myriad-Pro-Regular.ttf") format("opentype"),
+    url("../font/myriad-pro-regular/Myriad-Pro-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: 'myriad-pro-regular';
+    background-color: #000;
+    color: #FFF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #e23000;
+}
+
+.text-letter-spacing-3 {
+    letter-spacing: 3px;
+}
+
+.primary-heading {
+    font-family: 'moonshiner-regular';
+    color: #e23000;
+    font-size: 60px;
+}
+
+
+.text-color-primary{
+    color: #e23000;
+}
+
+.primary-text-family {
+    font-family: 'moonshiner-regular';
+}
+
+.secondary-heading {
+    font-family: 'myriad-pro-cond';
+}
+
+.table td, .table th {
+    border: none;
+    padding: 2px 0;
+}
+
+#listeningToWidget {
+    border: 1px solid #FFF;
+    padding: 20px;
+}
+
+.background-light {
+    background-color: #FFF;  
+}
+
+.background-gray {
+    background-color: #3d3d3d;  
+}
+
+.text-default {
+    color: #000;
+}
+
+.text-light-gray {
+    color: #dfdfdf;
+}
+
+
+*::-webkit-input-placeholder {
+    color: #000;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #000;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #000;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000;
+}
+*::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #000;
+}
+*::placeholder {
+    /* modern browser */
+    color: #000;
+}
+
+.footer-socmed li a,
+.banner-socmed li a{
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+}
+
+#iconFB {
+    background-image: url('../img/icons/fb.jpg');
+}
+#iconFB:hover {
+    background-image: url('../img/icons/afb.jpg');
+}
+
+#iconYT {
+    background-image: url('../img/icons/yt.jpg');
+}
+#iconYT:hover {
+    background-image: url('../img/icons/ayt.jpg');
+}
+
+#iconInst {
+    background-image: url('../img/icons/instagram.jpg');
+}
+#iconInst:hover {
+    background-image: url('../img/icons/ainstagram.jpg');
+}
+
+#iconSC {
+    background-image: url('../img/icons/sc.jpg');
+}
+#iconSC:hover {
+    background-image: url('../img/icons/asc.jpg');
+}
+
+#iconTW {
+    background-image: url('../img/icons/twitter.jpg');
+}
+#iconTW:hover {
+    background-image: url('../img/icons/atwitter.jpg');
+}
+
+
+footer {
+    border-top: 26px solid #FFF;
+}
+
+
+#iconApple {
+    background-image: url('../img/icons/music-apple.jpg');
+}
+#iconMusicYT {
+    background-image: url('../img/icons/music-yt.jpg');
+}
+#iconSCloud {
+    background-image: url('../img/icons/music-sc.jpg');
+}
+#iconSpotify {
+    background-image: url('../img/icons/music-soptify.jpg');
+}
+
+.signup-phoinix {
+    font-size: 80px;
+    line-height: 1;
+}
+
+.music-player a:hover {
+    opacity: .6;
+}
+
+.get-ticket-action {
+    bottom: 0;
+    background: #00000099;
+    margin: 0;
+    font-size: 18px;
+}
+
+.opacity-4 {
+    opacity: .8;
+}
+
+#mainBanner {
+    background-image: url('../img/main-banner.jpg');
+    min-height: 900px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.banner-brand {
+    top: 376px;
+    padding: 50px;
+    width: 510px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.shirt-container img {
+    width: 300px !important;
+    margin-left: 110px;
+}
+
+.new-merchandise-col {
+    padding-left: calc(1140px / 3);
+}
+
+
+.js-reveal {
+    opacity: 1;
+    transition: opacity .7s ease-in, margin-top .7s ease-out;
+  }
+  
+  .js-reveal--hidden {
+    opacity: 0;
+    margin-top: 3em;
+  }
+
+
+  button:hover {
+    background: #e23000;
+    color: #FFF;
+}
+
+@media (max-width: 600px) {
+
+    #mainBanner {
+        min-height: 720px; 
+        /* background-size: 766px; */
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+
+    .banner-brand {
+        position: absolute;
+        bottom: 200px;
+        padding: 50px;
+        width: 100%;
+        text-align: center;
+        top: unset;
+    }
+
+    .new-merchandise-col {
+        padding-left: 0;
+    }
+
+    .banner-socmed {
+        padding: 0px 48px !important;
+    }
+    
+    .banner-socmed li {
+        margin: 0 10px;
+    }
+
+    .banner-brand img {
+        width: 220px !important;
+    }
+
+    .shirt-container img {
+        width: inherit !important;
+        margin-left: 0;
+    }
+
+    .get-ticket-action {
+        font-size: 40px;
+    }
+    
+}
